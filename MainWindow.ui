@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>546</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>201900600099 滕翡</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>861</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>操作信息</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>581</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>显示图片</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>显示图片信息</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>灰度直方图</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>直方图均衡化</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>灰度化</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>平移</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>旋转</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>翻转</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>图像放大（最近邻）</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>图像放大（双线性插值）</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>图像错切</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>灰度图伪彩色</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>线性灰度变化</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>灰窗级变换</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>椒盐噪声</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>均值滤波</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>高通滤波</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>二值图像去噪</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>横向锐化</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>梯度锐化</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>边缘检测算子Sobel</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>边缘检测算子Robert</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>直方图门限</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>区域合并分裂</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="OkButton">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>30</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGraphicsView" name="Image2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>110</y>
+      <width>551</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Info">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>图片信息与相关说明</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>90</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>操作结果</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>281</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>902</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
